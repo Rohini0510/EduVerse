@@ -11,6 +11,7 @@ export type Community = {
 };
 
 export type Post = {
+  title: ReactNode;
   id: string;
   communityId: string;
   author: string; // username only

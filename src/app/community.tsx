@@ -1,8 +1,9 @@
+
 import { useRouter } from "expo-router";
 import {
     Search,
     Sparkles,
-    ThumbUp,
+    ThumbsUp,
     Zap
 } from "lucide-react-native";
 import { useMemo, useState } from "react";
@@ -242,7 +243,7 @@ export default function CommunityScreen() {
                     }}
                     className="rounded-full bg-primary-500 p-2"
                   >
-                    <ThumbUp size={16} color="#fff" />
+                    <ThumbsUp size={16} color="#fff" />
                   </TouchableOpacity>
                 </View>
                 <Text
