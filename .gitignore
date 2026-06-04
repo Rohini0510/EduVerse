@@ -1,0 +1,121 @@
+# Dependencies
+
+node_modules/
+
+# Expo
+
+.expo/
+.expo-shared/
+expo-env.d.ts
+
+# Expo web build
+
+web-build/
+dist/
+build/
+
+# React Native generated files
+
+android/app/build/
+android/build/
+ios/build/
+
+# Generated native folders (if using Expo prebuild)
+
+android/
+ios/
+
+# Metro
+
+.metro-health-check*
+
+# TypeScript
+
+*.tsbuildinfo
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# API Keys
+
+openai.key
+gemini.key
+
+# IDE
+
+.vscode/
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+# Certificates & Signing Files
+
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Kotlin
+
+.kotlin/
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Misc
+
+*.orig.*
+coverage/
+
+# React Native Debug
+
+react-native-debugger-open
+
+# Local caches
+
+.cache/
+.parcel-cache/
+
+# Expo Router generated files
+
+.expo-router/
+
+# SQLite databases (if local)
+
+*.db
+*.sqlite
+
+# Downloaded assets
+
+downloads/
+offline-content/
+
+# AI Tutor cache
+
+ai-cache/
+
+# Generated screenshots
+
+screenshots/
